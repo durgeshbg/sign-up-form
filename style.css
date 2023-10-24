@@ -4,4 +4,34 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: Roboto, sans-serif;
+}
+
+.container {
+	display: flex;
+	height: 100vh;
+}
+.sidebar {
+	width: 30vw;
+	background: url(./bg.jpeg);
+}
+.formbar {
+	width: 70vw;
+}
+.logobar {
+	margin-top: 25%;
+	width: 100%;
+	height: 15%;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.logobar p {
+	color: white;
+	font-size: 5rem;
 }
