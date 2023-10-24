@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
+@font-face {
+	font-family: 'norse';
+	src: url(./assets/Norse-Bold.otf);
+}
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Roboto, sans-serif;
+	font-family: sans-serif;
 }
 
 .container {
@@ -13,7 +15,7 @@
 }
 .sidebar {
 	width: 30vw;
-	background: url(./bg.jpeg);
+	background: url(./assets/bg.jpg) 100% 100%;
 }
 .formbar {
 	width: 70vw;
@@ -32,6 +34,7 @@
 }
 
 .logobar p {
+	font-family: norse;
 	color: white;
 	font-size: 5rem;
 }
